@@ -1,4 +1,4 @@
-Current Event ID,Legacy Event ID,Event Name
+CurrentEventID,LegacyEventID,EventName
 4618,N/A,A monitored security event pattern has occurred.
 4649,N/A,A replay attack was detected. May be a harmless false positive due to misconfiguration error.
 4719,612,System audit policy was changed.
