@@ -1,0 +1,523 @@
+﻿EventID,Legacy,EventName
+612,Yes,System audit policy was changed.
+801,Yes,Role separation enabled:
+550,Yes,Possible denial-of-service (DoS) attack
+517,Yes,The audit log was cleared
+610,Yes,A new trust was created to a domain.
+617,Yes,Kerberos policy was changed.
+618,Yes,Encrypted data recovery policy was changed.
+620,Yes,Trusted domain information was modified.
+628,Yes,An attempt was made to reset an account's password.
+631,Yes,A security-enabled global group was created.
+639,Yes,A security-enabled local group was changed.
+641,Yes,A security-enabled global group was changed.
+643,Yes,Domain Policy was changed.
+658,Yes,A security-enabled universal group was created.
+659,Yes,A security-enabled universal group was changed.
+667,Yes,A security-disabled group was deleted
+668,Yes,A group's type was changed.
+684,Yes,The ACL was set on accounts which are members of administrators groups.
+772,Yes,The certificate manager denied a pending certificate request.
+774,Yes,Certificate Services revoked a certificate.
+786,Yes,The security permissions for Certificate Services changed.
+789,Yes,The audit filter for Certificate Services changed.
+794,Yes,The certificate manager settings for Certificate Services changed.
+796,Yes,A property of Certificate Services changed.
+800,Yes,One or more rows have been deleted from the certificate database.
+807,Yes,Per User Audit Policy was changed.
+640,Yes,General account database changed
+619,Yes,Quality of Service Policy changed
+512,Yes,Windows is starting up.
+513,Yes,Windows is shutting down.
+514,Yes,An authentication package has been loaded by the Local Security Authority.
+515,Yes,A trusted logon process has been registered with the Local Security Authority.
+516,Yes,Internal resources allocated for the queuing of audit messages have been exhausted; leading to the loss of some audits.
+518,Yes,A notification package has been loaded by the Security Account Manager.
+519,Yes,Invalid use of LPC port.
+520,Yes,The system time was changed.
+528540,Yes,An account was successfully logged on.
+538,Yes,An account was logged off.
+551,Yes,User initiated logoff.
+552,Yes,A logon was attempted using explicit credentials.
+560,Yes,A handle to an object was requested.
+567,Yes,A registry value was modified.
+562,Yes,The handle to an object was closed.
+564,Yes,An object was deleted.
+565,Yes,A handle to an object was requested.
+566,Yes,An operation was performed on an object.
+567,Yes,An attempt was made to access an object.
+576,Yes,Special privileges assigned to new logon.
+577,Yes,A privileged service was called.
+578,Yes,An operation was attempted on a privileged object.
+592,Yes,A new process has been created.
+593,Yes,A process has exited.
+594,Yes,An attempt was made to duplicate a handle to an object.
+595,Yes,Indirect access to an object was requested.
+600,Yes,A primary token was assigned to process.
+601,Yes,Attempt to install a service
+602,Yes,A scheduled task was created.
+602,Yes,A scheduled task was deleted.
+602,Yes,A scheduled task was enabled.
+602,Yes,A scheduled task was disabled.
+602,Yes,A scheduled task was updated.
+608,Yes,A user right was assigned.
+609,Yes,A user right was removed.
+611,Yes,A trust to a domain was removed.
+621,Yes,System security access was granted to an account.
+622,Yes,System security access was removed from an account.
+624,Yes,A user account was created.
+626,Yes,A user account was enabled.
+627,Yes,An attempt was made to change an account's password.
+629,Yes,A user account was disabled.
+630,Yes,A user account was deleted.
+632,Yes,A member was added to a security-enabled global group.
+633,Yes,A member was removed from a security-enabled global group.
+634,Yes,A security-enabled global group was deleted.
+635,Yes,A security-enabled local group was created.
+636,Yes,A member was added to a security-enabled local group.
+637,Yes,A member was removed from a security-enabled local group.
+638,Yes,A security-enabled local group was deleted.
+642,Yes,A user account was changed.
+644,Yes,A user account was locked out.
+645,Yes,A computer account was changed.
+646,Yes,A computer account was changed.
+647,Yes,A computer account was deleted.
+648,Yes,A security-disabled local group was created.
+649,Yes,A security-disabled local group was changed.
+650,Yes,A member was added to a security-disabled local group.
+651,Yes,A member was removed from a security-disabled local group.
+652,Yes,A security-disabled local group was deleted.
+653,Yes,A security-disabled global group was created.
+654,Yes,A security-disabled global group was changed.
+655,Yes,A member was added to a security-disabled global group.
+656,Yes,A member was removed from a security-disabled global group.
+657,Yes,A security-disabled global group was deleted.
+660,Yes,A member was added to a security-enabled universal group.
+661,Yes,A member was removed from a security-enabled universal group.
+662,Yes,A security-enabled universal group was deleted.
+663,Yes,A security-disabled universal group was created.
+664,Yes,A security-disabled universal group was changed.
+665,Yes,A member was added to a security-disabled universal group.
+666,Yes,A member was removed from a security-disabled universal group.
+671,Yes,A user account was unlocked.
+672676,Yes,A Kerberos authentication ticket (TGT) was requested.
+673,Yes,A Kerberos service ticket was requested.
+674,Yes,A Kerberos service ticket was renewed.
+675,Yes,Kerberos pre-authentication failed.
+672,Yes,A Kerberos authentication ticket request failed.
+678,Yes,An account was mapped for logon.
+679,Yes,An account could not be mapped for logon.
+680681,Yes,The domain controller attempted to validate the credentials for an account.
+682,Yes,A session was reconnected to a Window Station.
+683,Yes,A session was disconnected from a Window Station.
+685,Yes,The name of an account was changed:
+667,Yes,A basic application group was created.
+689,Yes,A member was added to a basic application group.
+690,Yes,A member was removed from a basic application group.
+691,Yes,A nonmember was added to a basic application group.
+692,Yes,A nonmember was removed from a basic application group.
+693,Yes,A basic application group was deleted.
+694,Yes,An LDAP query group was created.
+773,Yes,Certificate Services received a resubmitted certificate request.
+775,Yes,Certificate Services received a request to publish the certificate revocation list (CRL).
+776,Yes,Certificate Services published the certificate revocation list (CRL).
+777,Yes,A certificate request extension changed.
+778,Yes,One or more certificate request attributes changed.
+779,Yes,Certificate Services received a request to shut down.
+780,Yes,Certificate Services backup started.
+781,Yes,Certificate Services backup completed.
+782,Yes,Certificate Services restore started.
+783,Yes,Certificate Services restore completed.
+784,Yes,Certificate Services started.
+785,Yes,Certificate Services stopped.
+787,Yes,Certificate Services retrieved an archived key.
+788,Yes,Certificate Services imported a certificate into its database.
+790,Yes,Certificate Services received a certificate request.
+791,Yes,Certificate Services approved a certificate request and issued a certificate.
+792,Yes,Certificate Services denied a certificate request.
+793,Yes,Certificate Services set the status of a certificate request to pending.
+795,Yes,A configuration entry changed in Certificate Services.
+797,Yes,Certificate Services archived a key.
+798,Yes,Certificate Services imported and archived a key.
+799,Yes,Certificate Services published the CA certificate to Active Directory Domain Services.
+802,Yes,Certificate Services loaded a template.
+566,Yes,A directory service object was modified.
+566,Yes,A directory service object was created.
+561,Yes,A handle to an object was requested.
+563,Yes,Object open for delete
+625,Yes,User Account Type Changed
+613,Yes,IPsec policy agent started
+614,Yes,IPsec policy agent disabled
+615,Yes,IPsec policy agent
+616,Yes,IPsec policy agent encountered a potential serious failure
+4618,No,A monitored security event pattern has occurred.
+4649,No,A replay attack was detected. May be a harmless false positive due to misconfiguration error.
+4719,No,System audit policy was changed.
+4765,No,SID History was added to an account.
+4766,No,An attempt to add SID History to an account failed.
+4794,No,An attempt was made to set the Directory Services Restore Mode.
+4897,No,Role separation enabled:
+4964,No,Special groups have been assigned to a new logon.
+5124,No,A security setting was updated on the OCSP Responder Service
+1102,No,The audit log was cleared
+4621,No,Administrator recovered system from CrashOnAuditFail. Users who are not administrators will now be allowed to log on. Some auditable activity might not have been recorded.
+4675,No,SIDs were filtered.
+4692,No,Backup of data protection master key was attempted.
+4693,No,Recovery of data protection master key was attempted.
+4706,No,A new trust was created to a domain.
+4713,No,Kerberos policy was changed.
+4714,No,Encrypted data recovery policy was changed.
+4715,No,The audit policy (SACL) on an object was changed.
+4716,No,Trusted domain information was modified.
+4724,No,An attempt was made to reset an account's password.
+4727,No,A security-enabled global group was created.
+4735,No,A security-enabled local group was changed.
+4737,No,A security-enabled global group was changed.
+4739,No,Domain Policy was changed.
+4754,No,A security-enabled universal group was created.
+4755,No,A security-enabled universal group was changed.
+4764,No,A security-disabled group was deleted
+4764,No,A group's type was changed.
+4780,No,The ACL was set on accounts which are members of administrators groups.
+4816,No,RPC detected an integrity violation while decrypting an incoming message.
+4865,No,A trusted forest information entry was added.
+4866,No,A trusted forest information entry was removed.
+4867,No,A trusted forest information entry was modified.
+4868,No,The certificate manager denied a pending certificate request.
+4870,No,Certificate Services revoked a certificate.
+4882,No,The security permissions for Certificate Services changed.
+4885,No,The audit filter for Certificate Services changed.
+4890,No,The certificate manager settings for Certificate Services changed.
+4892,No,A property of Certificate Services changed.
+4896,No,One or more rows have been deleted from the certificate database.
+4906,No,The CrashOnAuditFail value has changed.
+4907,No,Auditing settings on object were changed.
+4908,No,Special Groups Logon table modified.
+4912,No,Per User Audit Policy was changed.
+4960,No,IPsec dropped an inbound packet that failed an integrity check. If this problem persists; it could indicate a network issue or that packets are being modified in transit to this computer. Verify that the packets sent from the remote computer are the same as those received by this computer. This error might also indicate interoperability problems with other IPsec implementations.
+4961,No,IPsec dropped an inbound packet that failed a replay check. If this problem persists; it could indicate a replay attack against this computer.
+4962,No,IPsec dropped an inbound packet that failed a replay check. The inbound packet had too low a sequence number to ensure it was not a replay.
+4963,No,IPsec dropped an inbound clear text packet that should have been secured. This is usually due to the remote computer changing its IPsec policy without informing this computer. This could also be a spoofing attack attempt.
+4965,No,IPsec received a packet from a remote computer with an incorrect Security Parameter Index (SPI). This is usually caused by malfunctioning hardware that is corrupting packets. If these errors persist; verify that the packets sent from the remote computer are the same as those received by this computer. This error may also indicate interoperability problems with other IPsec implementations. In that case; if connectivity is not impeded; then these events can be ignored.
+4976,No,During Main Mode negotiation; IPsec received an invalid negotiation packet. If this problem persists; it could indicate a network issue or an attempt to modify or replay this negotiation.
+4977,No,During Quick Mode negotiation; IPsec received an invalid negotiation packet. If this problem persists; it could indicate a network issue or an attempt to modify or replay this negotiation.
+4978,No,During Extended Mode negotiation; IPsec received an invalid negotiation packet. If this problem persists; it could indicate a network issue or an attempt to modify or replay this negotiation.
+4983,No,An IPsec Extended Mode negotiation failed. The corresponding Main Mode security association has been deleted.
+4984,No,An IPsec Extended Mode negotiation failed. The corresponding Main Mode security association has been deleted.
+5027,No,The Windows Firewall Service was unable to retrieve the security policy from the local storage. The service will continue enforcing the current policy.
+5028,No,The Windows Firewall Service was unable to parse the new security policy. The service will continue with currently enforced policy.
+5029,No,The Windows Firewall Service failed to initialize the driver. The service will continue to enforce the current policy.
+5030,No,The Windows Firewall Service failed to start.
+5035,No,The Windows Firewall Driver failed to start.
+5037,No,The Windows Firewall Driver detected critical runtime error. Terminating.
+5038,No,Code integrity determined that the image hash of a file is not valid. The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+5120,No,OCSP Responder Service Started
+5121,No,OCSP Responder Service Stopped
+5122,No,A configuration entry changed in OCSP Responder Service
+5123,No,A configuration entry changed in OCSP Responder Service
+5376,No,Credential Manager credentials were backed up.
+5377,No,Credential Manager credentials were restored from a backup.
+5453,No,An IPsec negotiation with a remote computer failed because the IKE and AuthIP IPsec Keying Modules (IKEEXT) service is not started.
+5480,No,IPsec Services failed to get the complete list of network interfaces on the computer. This poses a potential security risk because some of the network interfaces may not get the protection provided by the applied IPsec filters. Use the IP Security Monitor snap-in to diagnose the problem.
+5483,No,IPsec Services failed to initialize RPC server. IPsec Services could not be started.
+5484,No,IPsec Services has experienced a critical failure and has been shut down. The shutdown of IPsec Services can put the computer at greater risk of network attack or expose the computer to potential security risks.
+5485,No,IPsec Services failed to process some IPsec filters on a plug-and-play event for network interfaces. This poses a potential security risk because some of the network interfaces may not get the protection provided by the applied IPsec filters. Use the IP Security Monitor snap-in to diagnose the problem.
+5827,No,The Netlogon service denied a vulnerable Netlogon secure channel connection from a machine account.
+5828,No,The Netlogon service denied a vulnerable Netlogon secure channel connection using a trust account.
+6145,No,One or more errors occurred while processing security policy in the Group Policy objects.
+6273,No,Network Policy Server denied access to a user.
+6274,No,Network Policy Server discarded the request for a user.
+6275,No,Network Policy Server discarded the accounting request for a user.
+6276,No,Network Policy Server quarantined a user.
+6277,No,Network Policy Server granted access to a user but put it on probation because the host did not meet the defined health policy.
+6278,No,Network Policy Server granted full access to a user because the host met the defined health policy.
+6279,No,Network Policy Server locked the user account due to repeated failed authentication attempts.
+6280,No,Network Policy Server unlocked the user account.
+24586,No,An error was encountered converting volume
+24592,No,An attempt to automatically restart conversion on volume %2 failed.
+24593,No,Metadata write: Volume %2 returning errors while trying to modify metadata. If failures continue; decrypt volume
+24594,No,Metadata rebuild: An attempt to write a copy of metadata on volume %2 failed and may appear as disk corruption. If failures continue; decrypt volume.
+4608,No,Windows is starting up.
+4609,No,Windows is shutting down.
+4610,No,An authentication package has been loaded by the Local Security Authority.
+4611,No,A trusted logon process has been registered with the Local Security Authority.
+4612,No,Internal resources allocated for the queuing of audit messages have been exhausted; leading to the loss of some audits.
+4614,No,A notification package has been loaded by the Security Account Manager.
+4615,No,Invalid use of LPC port.
+4616,No,The system time was changed.
+4622,No,A security package has been loaded by the Local Security Authority.
+4624,No,An account was successfully logged on.
+4625,No,An account failed to log on.
+4634,No,An account was logged off.
+4646,No,IKE DoS-prevention mode started.
+4647,No,User initiated logoff.
+4648,No,A logon was attempted using explicit credentials.
+4650,No,An IPsec Main Mode security association was established. Extended Mode was not enabled. Certificate authentication was not used.
+4651,No,An IPsec Main Mode security association was established. Extended Mode was not enabled. A certificate was used for authentication.
+4652,No,An IPsec Main Mode negotiation failed.
+4653,No,An IPsec Main Mode negotiation failed.
+4654,No,An IPsec Quick Mode negotiation failed.
+4655,No,An IPsec Main Mode security association ended.
+4656,No,A handle to an object was requested.
+4657,No,A registry value was modified.
+4658,No,The handle to an object was closed.
+4659,No,A handle to an object was requested with intent to delete.
+4660,No,An object was deleted.
+4661,No,A handle to an object was requested.
+4662,No,An operation was performed on an object.
+4663,No,An attempt was made to access an object.
+4664,No,An attempt was made to create a hard link.
+4665,No,An attempt was made to create an application client context.
+4666,No,An application attempted an operation:
+4667,No,An application client context was deleted.
+4668,No,An application was initialized.
+4670,No,Permissions on an object were changed.
+4671,No,An application attempted to access a blocked ordinal through the TBS.
+4672,No,Special privileges assigned to new logon.
+4673,No,A privileged service was called.
+4674,No,An operation was attempted on a privileged object.
+4688,No,A new process has been created.
+4689,No,A process has exited.
+4690,No,An attempt was made to duplicate a handle to an object.
+4691,No,Indirect access to an object was requested.
+4694,No,Protection of auditable protected data was attempted.
+4695,No,Unprotection of auditable protected data was attempted.
+4696,No,A primary token was assigned to process.
+4697,No,Attempt to install a service
+4698,No,A scheduled task was created.
+4699,No,A scheduled task was deleted.
+4700,No,A scheduled task was enabled.
+4701,No,A scheduled task was disabled.
+4702,No,A scheduled task was updated.
+4704,No,A user right was assigned.
+4705,No,A user right was removed.
+4707,No,A trust to a domain was removed.
+4709,No,IPsec Services was started.
+4710,No,IPsec Services was disabled.
+4711,No,May contain any one of the following: PAStore Engine applied locally cached copy of Active Directory storage IPsec policy on the computer. PAStore Engine applied Active Directory storage IPsec policy on the computer. PAStore Engine applied local registry storage IPsec policy on the computer. PAStore Engine failed to apply locally cached copy of Active Directory storage IPsec policy on the computer. PAStore Engine failed to apply Active Directory storage IPsec policy on the computer. PAStore Engine failed to apply local registry storage IPsec policy on the computer. PAStore Engine failed to apply some rules of the active IPsec policy on the computer. PAStore Engine failed to load directory storage IPsec policy on the computer. PAStore Engine loaded directory storage IPsec policy on the computer. PAStore Engine failed to load local storage IPsec policy on the computer. PAStore Engine loaded local storage IPsec policy on the computer.PAStore Engine polled for changes to the active IPsec policy and detected no changes. 
+4712,No,IPsec Services encountered a potentially serious failure.
+4717,No,System security access was granted to an account.
+4718,No,System security access was removed from an account.
+4720,No,A user account was created.
+4722,No,A user account was enabled.
+4723,No,An attempt was made to change an account's password.
+4725,No,A user account was disabled.
+4726,No,A user account was deleted.
+4728,No,A member was added to a security-enabled global group.
+4729,No,A member was removed from a security-enabled global group.
+4730,No,A security-enabled global group was deleted.
+4731,No,A security-enabled local group was created.
+4732,No,A member was added to a security-enabled local group.
+4733,No,A member was removed from a security-enabled local group.
+4734,No,A security-enabled local group was deleted.
+4738,No,A user account was changed.
+4740,No,A user account was locked out.
+4741,No,A computer account was changed.
+4742,No,A computer account was changed.
+4743,No,A computer account was deleted.
+4744,No,A security-disabled local group was created.
+4745,No,A security-disabled local group was changed.
+4746,No,A member was added to a security-disabled local group.
+4747,No,A member was removed from a security-disabled local group.
+4748,No,A security-disabled local group was deleted.
+4749,No,A security-disabled global group was created.
+4750,No,A security-disabled global group was changed.
+4751,No,A member was added to a security-disabled global group.
+4752,No,A member was removed from a security-disabled global group.
+4753,No,A security-disabled global group was deleted.
+4756,No,A member was added to a security-enabled universal group.
+4757,No,A member was removed from a security-enabled universal group.
+4758,No,A security-enabled universal group was deleted.
+4759,No,A security-disabled universal group was created.
+4760,No,A security-disabled universal group was changed.
+4761,No,A member was added to a security-disabled universal group.
+4762,No,A member was removed from a security-disabled universal group.
+4767,No,A user account was unlocked.
+4768,No,A Kerberos authentication ticket (TGT) was requested.
+4769,No,A Kerberos service ticket was requested.
+4770,No,A Kerberos service ticket was renewed.
+4771,No,Kerberos pre-authentication failed.
+4772,No,A Kerberos authentication ticket request failed.
+4774,No,An account was mapped for logon.
+4775,No,An account could not be mapped for logon.
+4776,No,The domain controller attempted to validate the credentials for an account.
+4777,No,The domain controller failed to validate the credentials for an account.
+4778,No,A session was reconnected to a Window Station.
+4779,No,A session was disconnected from a Window Station.
+4781,No,The name of an account was changed:
+4782,No,The password hash an account was accessed.
+4783,No,A basic application group was created.
+4784,No,A basic application group was changed.
+4785,No,A member was added to a basic application group.
+4786,No,A member was removed from a basic application group.
+4787,No,A nonmember was added to a basic application group.
+4788,No,A nonmember was removed from a basic application group.
+4789,No,A basic application group was deleted.
+4790,No,An LDAP query group was created.
+4793,No,The Password Policy Checking API was called.
+4800,No,The workstation was locked.
+4801,No,The workstation was unlocked.
+4802,No,The screen saver was invoked.
+4803,No,The screen saver was dismissed.
+4864,No,A namespace collision was detected.
+4869,No,Certificate Services received a resubmitted certificate request.
+4871,No,Certificate Services received a request to publish the certificate revocation list (CRL).
+4872,No,Certificate Services published the certificate revocation list (CRL).
+4873,No,A certificate request extension changed.
+4874,No,One or more certificate request attributes changed.
+4875,No,Certificate Services received a request to shut down.
+4876,No,Certificate Services backup started.
+4877,No,Certificate Services backup completed.
+4878,No,Certificate Services restore started.
+4879,No,Certificate Services restore completed.
+4880,No,Certificate Services started.
+4881,No,Certificate Services stopped.
+4883,No,Certificate Services retrieved an archived key.
+4884,No,Certificate Services imported a certificate into its database.
+4886,No,Certificate Services received a certificate request.
+4887,No,Certificate Services approved a certificate request and issued a certificate.
+4888,No,Certificate Services denied a certificate request.
+4889,No,Certificate Services set the status of a certificate request to pending.
+4891,No,A configuration entry changed in Certificate Services.
+4893,No,Certificate Services archived a key.
+4894,No,Certificate Services imported and archived a key.
+4895,No,Certificate Services published the CA certificate to Active Directory Domain Services.
+4898,No,Certificate Services loaded a template.
+4902,No,The Per-user audit policy table was created.
+4904,No,An attempt was made to register a security event source.
+4905,No,An attempt was made to unregister a security event source.
+4909,No,The local policy settings for the TBS were changed.
+4910,No,The Group Policy settings for the TBS were changed.
+4928,No,An Active Directory replica source naming context was established.
+4929,No,An Active Directory replica source naming context was removed.
+4930,No,An Active Directory replica source naming context was modified.
+4931,No,An Active Directory replica destination naming context was modified.
+4932,No,Synchronization of a replica of an Active Directory naming context has begun.
+4933,No,Synchronization of a replica of an Active Directory naming context has ended.
+4934,No,Attributes of an Active Directory object were replicated.
+4935,No,Replication failure begins.
+4936,No,Replication failure ends.
+4937,No,A lingering object was removed from a replica.
+4944,No,The following policy was active when the Windows Firewall started.
+4945,No,A rule was listed when the Windows Firewall started.
+4946,No,A change has been made to Windows Firewall exception list. A rule was added.
+4947,No,A change has been made to Windows Firewall exception list. A rule was modified.
+4948,No,A change has been made to Windows Firewall exception list. A rule was deleted.
+4949,No,Windows Firewall settings were restored to the default values.
+4950,No,A Windows Firewall setting has changed.
+4951,No,A rule has been ignored because its major version number was not recognized by Windows Firewall.
+4952,No,Parts of a rule have been ignored because its minor version number was not recognized by Windows Firewall. The other parts of the rule will be enforced.
+4953,No,A rule has been ignored by Windows Firewall because it could not parse the rule.
+4954,No,Windows Firewall Group Policy settings have changed. The new settings have been applied.
+4956,No,Windows Firewall has changed the active profile.
+4957,No,Windows Firewall did not apply the following rule:
+4958,No,Windows Firewall did not apply the following rule because the rule referred to items not configured on this computer:
+4979,No,IPsec Main Mode and Extended Mode security associations were established.
+4980,No,IPsec Main Mode and Extended Mode security associations were established.
+4981,No,IPsec Main Mode and Extended Mode security associations were established.
+4982,No,IPsec Main Mode and Extended Mode security associations were established.
+4985,No,The state of a transaction has changed.
+5024,No,The Windows Firewall Service has started successfully.
+5025,No,The Windows Firewall Service has been stopped.
+5031,No,The Windows Firewall Service blocked an application from accepting incoming connections on the network.
+5032,No,Windows Firewall was unable to notify the user that it blocked an application from accepting incoming connections on the network.
+5033,No,The Windows Firewall Driver has started successfully.
+5034,No,The Windows Firewall Driver has been stopped.
+5039,No,A registry key was virtualized.
+5040,No,A change has been made to IPsec settings. An Authentication Set was added.
+5041,No,A change has been made to IPsec settings. An Authentication Set was modified.
+5042,No,A change has been made to IPsec settings. An Authentication Set was deleted.
+5043,No,A change has been made to IPsec settings. A Connection Security Rule was added.
+5044,No,A change has been made to IPsec settings. A Connection Security Rule was modified.
+5045,No,A change has been made to IPsec settings. A Connection Security Rule was deleted.
+5046,No,A change has been made to IPsec settings. A Crypto Set was added.
+5047,No,A change has been made to IPsec settings. A Crypto Set was modified.
+5048,No,A change has been made to IPsec settings. A Crypto Set was deleted.
+5050,No,An attempt to programmatically disable the Windows Firewall using a call to InetFwProfile.FirewallEnabled(False)
+5051,No,A file was virtualized.
+5056,No,A cryptographic self test was performed.
+5057,No,A cryptographic primitive operation failed.
+5058,No,Key file operation.
+5059,No,Key migration operation.
+5060,No,Verification operation failed.
+5061,No,Cryptographic operation.
+5062,No,A kernel-mode cryptographic self test was performed.
+5063,No,A cryptographic provider operation was attempted.
+5064,No,A cryptographic context operation was attempted.
+5065,No,A cryptographic context modification was attempted.
+5066,No,A cryptographic function operation was attempted.
+5067,No,A cryptographic function modification was attempted.
+5068,No,A cryptographic function provider operation was attempted.
+5069,No,A cryptographic function property operation was attempted.
+5070,No,A cryptographic function property modification was attempted.
+5125,No,A request was submitted to the OCSP Responder Service
+5126,No,Signing Certificate was automatically updated by the OCSP Responder Service
+5127,No,The OCSP Revocation Provider successfully updated the revocation information
+5136,No,A directory service object was modified.
+5137,No,A directory service object was created.
+5138,No,A directory service object was undeleted.
+5139,No,A directory service object was moved.
+5140,No,A network share object was accessed.
+5141,No,A directory service object was deleted.
+5152,No,The Windows Filtering Platform blocked a packet.
+5153,No,A more restrictive Windows Filtering Platform filter has blocked a packet.
+5154,No,The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections.
+5155,No,The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections.
+5156,No,The Windows Filtering Platform has allowed a connection.
+5157,No,The Windows Filtering Platform has blocked a connection.
+5158,No,The Windows Filtering Platform has permitted a bind to a local port.
+5159,No,The Windows Filtering Platform has blocked a bind to a local port.
+5378,No,The requested credentials delegation was disallowed by policy.
+5440,No,The following callout was present when the Windows Filtering Platform Base Filtering Engine started.
+5441,No,The following filter was present when the Windows Filtering Platform Base Filtering Engine started.
+5442,No,The following provider was present when the Windows Filtering Platform Base Filtering Engine started.
+5443,No,The following provider context was present when the Windows Filtering Platform Base Filtering Engine started.
+5444,No,The following sublayer was present when the Windows Filtering Platform Base Filtering Engine started.
+5446,No,A Windows Filtering Platform callout has been changed.
+5447,No,A Windows Filtering Platform filter has been changed.
+5448,No,A Windows Filtering Platform provider has been changed.
+5449,No,A Windows Filtering Platform provider context has been changed.
+5450,No,A Windows Filtering Platform sublayer has been changed.
+5451,No,An IPsec Quick Mode security association was established.
+5452,No,An IPsec Quick Mode security association ended.
+5456,No,PAStore Engine applied Active Directory storage IPsec policy on the computer.
+5457,No,PAStore Engine failed to apply Active Directory storage IPsec policy on the computer.
+5458,No,PAStore Engine applied locally cached copy of Active Directory storage IPsec policy on the computer.
+5459,No,PAStore Engine failed to apply locally cached copy of Active Directory storage IPsec policy on the computer.
+5460,No,PAStore Engine applied local registry storage IPsec policy on the computer.
+5461,No,PAStore Engine failed to apply local registry storage IPsec policy on the computer.
+5462,No,PAStore Engine failed to apply some rules of the active IPsec policy on the computer. Use the IP Security Monitor snap-in to diagnose the problem.
+5463,No,PAStore Engine polled for changes to the active IPsec policy and detected no changes.
+5464,No,PAStore Engine polled for changes to the active IPsec policy; detected changes; and applied them to IPsec Services.
+5465,No,PAStore Engine received a control for forced reloading of IPsec policy and processed the control successfully.
+5466,No,PAStore Engine polled for changes to the Active Directory IPsec policy; determined that Active Directory cannot be reached; and will use the cached copy of the Active Directory IPsec policy instead. Any changes made to the Active Directory IPsec policy since the last poll could not be applied.
+5467,No,PAStore Engine polled for changes to the Active Directory IPsec policy; determined that Active Directory can be reached; and found no changes to the policy. The cached copy of the Active Directory IPsec policy is no longer being used.
+5468,No,PAStore Engine polled for changes to the Active Directory IPsec policy; determined that Active Directory can be reached; found changes to the policy; and applied those changes. The cached copy of the Active Directory IPsec policy is no longer being used.
+5471,No,PAStore Engine loaded local storage IPsec policy on the computer.
+5472,No,PAStore Engine failed to load local storage IPsec policy on the computer.
+5473,No,PAStore Engine loaded directory storage IPsec policy on the computer.
+5474,No,PAStore Engine failed to load directory storage IPsec policy on the computer.
+5477,No,PAStore Engine failed to add quick mode filter.
+5479,No,IPsec Services has been shut down successfully. The shutdown of IPsec Services can put the computer at greater risk of network attack or expose the computer to potential security risks.
+5632,No,A request was made to authenticate to a wireless network.
+5633,No,A request was made to authenticate to a wired network.
+5712,No,A Remote Procedure Call (RPC) was attempted.
+5888,No,An object in the COM+ Catalog was modified.
+5889,No,An object was deleted from the COM+ Catalog.
+5890,No,An object was added to the COM+ Catalog.
+6008,No,The previous system shutdown was unexpected
+6144,No,Security policy in the Group Policy objects has been applied successfully.
+6272,No,Network Policy Server granted access to a user.
+24577,No,Encryption of volume started
+24578,No,Encryption of volume stopped
+24579,No,Encryption of volume completed
+24580,No,Decryption of volume started
+24581,No,Decryption of volume stopped
+24582,No,Decryption of volume completed
+24583,No,Conversion worker thread for volume started
+24584,No,Conversion worker thread for volume temporarily stopped
+24588,No,The conversion operation on volume %2 encountered a bad sector error. Please validate the data on this volume
+24595,No,Volume %2 contains bad clusters. These clusters will be skipped during conversion.
+24621,No,Initial state check: Rolling volume conversion transaction on %2.
+5049,No,An IPsec Security Association was deleted.
+5478,No,IPsec Services has started successfully.
